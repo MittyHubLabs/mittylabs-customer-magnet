@@ -36,7 +36,7 @@ const Index = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto flex items-center justify-between h-16 px-6">
           <span className="font-display text-xl font-bold text-foreground tracking-tight">
-            mitty<span className="text-accent">labs</span>
+            Mitty<span className="text-accent">Labs</span>
           </span>
           <Button variant="hero" size="sm">
             <Phone className="w-4 h-4 mr-1" />
@@ -160,7 +160,7 @@ const Index = () => {
       <footer className="border-t border-border py-10">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-lg font-bold text-foreground">
-            mitty<span className="text-accent">labs</span>
+            Mitty<span className="text-accent">Labs</span>
           </span>
           <p className="text-muted-foreground text-sm">
             © {new Date().getFullYear()} MittyLabs. All rights reserved.
