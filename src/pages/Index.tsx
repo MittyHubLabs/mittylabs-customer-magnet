@@ -78,14 +78,13 @@ const Index = () => {
               Clean, modern sites designed to turn visitors into calls and
               bookings.
             </motion.p>
-            <motion.div custom={3} variants={fadeUp} className="flex gap-4 flex-wrap">
-              <Button variant="hero" size="xl">
-                View Demo
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-              <Button variant="heroOutline" size="xl">
-                Our Work
-              </Button>
+            <motion.div custom={3} variants={fadeUp}>
+              <a href="mailto:tstevens1105@gmail.com">
+                <Button variant="hero" size="xl">
+                  Upgrade Your Website
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </a>
             </motion.div>
           </motion.div>
         </div>
