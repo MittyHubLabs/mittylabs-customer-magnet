@@ -36,7 +36,7 @@ const Index = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto flex items-center justify-between h-16 px-6">
           <span className="font-display text-xl font-bold text-foreground tracking-tight">
-            mitty<span className="text-accent">labs</span>
+            Mitty<span className="text-accent">Labs</span>
           </span>
           <Button variant="hero" size="sm">
             <Phone className="w-4 h-4 mr-1" />
