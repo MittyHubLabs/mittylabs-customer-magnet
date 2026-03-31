@@ -38,10 +38,12 @@ const Index = () => {
           <span className="font-display text-xl font-bold text-foreground tracking-tight">
             Mitty<span className="text-accent">Labs</span>
           </span>
-          <Button variant="hero" size="sm">
-            <Phone className="w-4 h-4 mr-1" />
-            Get in Touch
-          </Button>
+          <a href="tel:4072470720">
+            <Button variant="hero" size="sm">
+              <Phone className="w-4 h-4 mr-1" />
+              Get in Touch
+            </Button>
+          </a>
         </div>
       </nav>
 
