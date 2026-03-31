@@ -146,12 +146,6 @@ const Index = () => {
               >
                 Let's build a website that works as hard as you do.
               </motion.p>
-              <motion.div custom={2} variants={fadeUp}>
-                <Button variant="hero" size="xl">
-                  Start a Project
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
-              </motion.div>
             </div>
           </motion.div>
         </div>
