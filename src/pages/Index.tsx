@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Globe, Zap, Users, Phone } from "lucide-react";
+import logo from "@/assets/mittylabs-logo.png";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -35,9 +36,12 @@ const Index = () => {
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto flex items-center justify-between h-16 px-6">
-          <span className="font-display text-xl font-bold text-foreground tracking-tight">
-            Mitty<span className="text-accent">Labs</span>
-          </span>
+          <a href="/" className="flex items-center gap-2">
+            <img src={logo} alt="MittyLabs logo" className="h-8 w-auto" />
+            <span className="font-display text-xl font-bold text-foreground tracking-tight">
+              Mitty<span className="text-accent">Labs</span>
+            </span>
+          </a>
           <a href="tel:4072470720">
             <Button variant="hero" size="sm">
               <Phone className="w-4 h-4 mr-1" />
