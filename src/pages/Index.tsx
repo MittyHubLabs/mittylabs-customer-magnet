@@ -158,9 +158,12 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border py-10">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="font-display text-lg font-bold text-foreground">
-            Mitty<span className="text-accent">Labs</span>
-          </span>
+          <div className="flex items-center gap-2">
+            <img src={logo} alt="MittyLabs logo" className="h-7 w-auto" />
+            <span className="font-display text-lg font-bold text-foreground">
+              Mitty<span className="text-accent">Labs</span>
+            </span>
+          </div>
           <p className="text-muted-foreground text-sm">
             © {new Date().getFullYear()} MittyLabs. All rights reserved.
           </p>
