@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Globe, Zap, Users, Phone } from "lucide-react";
+import { ArrowRight, Bot, Sparkles, Workflow, Phone } from "lucide-react";
 import logo from "@/assets/mittylabs-logo.png";
 
 const fadeUp = {
@@ -14,19 +14,19 @@ const fadeUp = {
 
 const services = [
   {
-    icon: Globe,
-    title: "Custom Websites",
-    desc: "Handcrafted sites that reflect your brand and convert visitors into paying customers.",
+    icon: Bot,
+    title: "AI Agents & Chatbots",
+    desc: "Custom AI assistants that handle support, qualify leads, and book appointments around the clock.",
   },
   {
-    icon: Zap,
-    title: "Lightning Fast",
-    desc: "Optimized for speed and SEO so customers find you first.",
+    icon: Workflow,
+    title: "Workflow Automation",
+    desc: "Automate repetitive tasks and connect your tools so your team can focus on high-impact work.",
   },
   {
-    icon: Users,
-    title: "Built to Convert",
-    desc: "Every element designed with one goal — getting you more calls and bookings.",
+    icon: Sparkles,
+    title: "Digital Solutions",
+    desc: "Modern websites, dashboards, and integrations designed to grow your business.",
   },
 ];
 
@@ -66,28 +66,28 @@ const Index = () => {
               variants={fadeUp}
               className="text-accent font-semibold tracking-widest uppercase text-sm mb-6"
             >
-              Web Design Studio
+              AI & Digital Solutions
             </motion.p>
             <motion.h1
               custom={1}
               variants={fadeUp}
               className="text-4xl sm:text-5xl md:text-7xl font-display font-extrabold text-foreground leading-[1.08] mb-6"
             >
-              We build websites that bring you{" "}
-              <span className="text-accent">more customers</span>
+              AI-powered solutions that{" "}
+              <span className="text-accent">scale your business</span>
             </motion.h1>
             <motion.p
               custom={2}
               variants={fadeUp}
               className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed"
             >
-              Clean, modern sites designed to turn visitors into calls and
-              bookings.
+              We design intelligent agents, automations, and digital experiences
+              that save time and unlock growth.
             </motion.p>
             <motion.div custom={3} variants={fadeUp}>
-              <a href="mailto:tstevens1105@gmail.com">
+              <a href="mailto:mittylabsco@gmail.com">
                 <Button variant="hero" size="xl">
-                  Upgrade Your Website
+                  Upgrade Your Business
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </a>
@@ -141,14 +141,14 @@ const Index = () => {
                 variants={fadeUp}
                 className="font-display text-3xl md:text-5xl font-bold text-primary-foreground mb-4"
               >
-                Ready to grow your business?
+                Ready to put AI to work?
               </motion.h2>
               <motion.p
                 custom={1}
                 variants={fadeUp}
                 className="text-primary-foreground/70 text-lg mb-8 max-w-md mx-auto"
               >
-                Let's build a website that works as hard as you do.
+                Let's build intelligent solutions that work as hard as you do.
               </motion.p>
             </div>
           </motion.div>
