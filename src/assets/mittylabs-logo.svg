@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Dark circle background -->
+  <circle cx="50" cy="50" r="50" fill="#0d0d0d"/>
+
+  <!-- Left face of pyramid -->
+  <polygon points="50,18 18,72 50,72" fill="#2a9d6e"/>
+
+  <!-- Right face of pyramid (darker) -->
+  <polygon points="50,18 50,72 82,72" fill="#1e7a52"/>
+
+  <!-- Center shadow line -->
+  <polygon points="50,18 47,72 53,72" fill="#175f3f"/>
+
+  <!-- Highlight at peak -->
+  <polygon points="50,18 44,30 56,30" fill="#c8f0e0"/>
+</svg>
