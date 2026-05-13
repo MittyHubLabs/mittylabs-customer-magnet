@@ -330,9 +330,9 @@ const Index = () => {
                 ready to work smarter.
               </motion.p>
               <motion.div custom={3} variants={fadeUp} className="flex flex-col sm:flex-row gap-4">
-                <a href="mailto:contact@mittylabs.com">
+                <a href="#contact">
                   <Button variant="hero" size="xl">
-                    Start a Project
+                    Work With Us
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </a>
