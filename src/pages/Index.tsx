@@ -12,7 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useTheme } from "@/hooks/use-theme";
 
-import logo from "@/assets/mittylabs-logo-light.svg";
+import logo from "@/assets/mittylabs-logo-transparent.png";
 
 const HeroVisual = () => (
   <div className="relative w-full h-[480px] flex items-center justify-center">
