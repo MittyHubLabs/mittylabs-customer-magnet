@@ -221,7 +221,7 @@ const Index = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto flex items-center justify-between h-16 px-6">
           <a href="/" className="flex items-center gap-2">
-            <img src={logo} alt="MittyLabs logo" className={`h-11 w-auto transition-all ${theme === 'light' ? 'invert' : ''}`} />
+            <img src={logo} alt="MittyLabs logo" className="h-11 w-auto transition-all" style={theme === 'light' ? { filter: 'invert(1) hue-rotate(180deg)' } : {}} />
             <span className="font-display text-xl font-bold text-foreground tracking-tight">
               Mitty<span className="text-accent">Labs</span>
             </span>
@@ -603,7 +603,7 @@ const Index = () => {
       <footer className="border-t border-border py-10">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <img src={logo} alt="MittyLabs logo" className={`h-10 w-auto transition-all ${theme === 'light' ? 'invert' : ''}`} />
+            <img src={logo} alt="MittyLabs logo" className="h-10 w-auto transition-all" style={theme === 'light' ? { filter: 'invert(1) hue-rotate(180deg)' } : {}} />
             <span className="font-display text-lg font-bold text-foreground">
               Mitty<span className="text-accent">Labs</span>
             </span>
