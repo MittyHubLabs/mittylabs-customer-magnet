@@ -190,7 +190,7 @@ const steps = [
 const navLinks = [
   { href: "#services", label: "Services" },
   { href: "#how-it-works", label: "How It Works" },
-  { href: "#who-we-serve", label: "Who We Serve" },
+  { href: "#who-we-serve", label: "Built For" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -465,7 +465,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Who We Serve */}
+      {/* Built For */}
       <section id="who-we-serve" className="py-24 bg-card border-t border-border">
         <div className="container mx-auto px-6">
           <motion.div
@@ -475,7 +475,7 @@ const Index = () => {
             className="mb-14"
           >
             <motion.p custom={0} variants={fadeUp} className="text-accent font-semibold tracking-widest uppercase text-sm mb-3">
-              Who We Serve
+              Built For
             </motion.p>
             <motion.h2 custom={1} variants={fadeUp} className="font-display text-3xl md:text-4xl font-bold text-foreground max-w-xl">
               Built for businesses of all kinds
