@@ -6,6 +6,7 @@ import {
   ArrowRight, Bot, Sparkles, Workflow, Phone,
   CheckCircle2, ShoppingCart, HeartPulse, Building2,
   PhoneCall, MessageSquare, Rocket, Sun, Moon, Menu, X,
+  Home, UtensilsCrossed, Scale, Dumbbell, Briefcase, Clock, Shield, CalendarCheck,
 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -163,6 +164,21 @@ const industries = [
     icon: HeartPulse,
     title: "Healthcare",
     desc: "Streamline appointment scheduling, patient follow-ups, and administrative tasks so your staff can focus on care.",
+  },
+  {
+    icon: Home,
+    title: "Real Estate",
+    desc: "Capture and qualify leads 24/7, automate follow-ups, and let your AI agent handle the first touchpoint so you can focus on closing.",
+  },
+  {
+    icon: UtensilsCrossed,
+    title: "Restaurants & Hospitality",
+    desc: "Handle reservations, answer FAQs, and run promotions automatically — so your team can focus on the guest experience.",
+  },
+  {
+    icon: Scale,
+    title: "Legal & Professional Services",
+    desc: "Automate client intake, appointment booking, and document workflows so your practice runs efficiently without extra overhead.",
   },
 ];
 
@@ -502,6 +518,27 @@ const Index = () => {
               </motion.div>
             ))}
           </motion.div>
+        </div>
+      </section>
+
+      {/* Trust signals */}
+      <section className="py-12 border-t border-border bg-card">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-wrap justify-center gap-8 md:gap-16">
+            {[
+              { icon: CalendarCheck, label: "Free Discovery Call" },
+              { icon: Shield, label: "No Contracts" },
+              { icon: Clock, label: "Response Within 24 Hours" },
+              { icon: CheckCircle2, label: "100% Custom Builds" },
+            ].map(({ icon: Icon, label }) => (
+              <div key={label} className="flex items-center gap-3 text-muted-foreground">
+                <div className="w-9 h-9 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
+                  <Icon className="w-4 h-4 text-accent" />
+                </div>
+                <span className="text-sm font-semibold text-foreground">{label}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
